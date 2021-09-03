@@ -25,8 +25,14 @@ This module uses JavaScript features only found in Node versions 8+.
 
 Run the following command in the root directory of your Node-RED install
 
+    cd /data/
+    npm install git+https://github.com/kartoza/node-red-contrib-postgres-multi.git
+    npm audit fix
+    exit
+    docker-compose kill
+    docker-compose rm
+    docker-compose up -d
     
-    npm i https://github.com/kartoza/node-red-contrib-postgres
     
     Original package install process: 
     npm install node-red-contrib-postgres-multi
