@@ -1,5 +1,7 @@
 ## node-red-contrib-postgres-multi
 
+Forked from the upstream [repo](https://github.com/BruceFletcher) to try to resolve non-connect issues like mentioned [here](https://github.com/BruceFletcher/node-red-contrib-postgres-multi/issues/9).
+
 A [Node-RED](http://nodered.org) node to query [PostgreSQL](http://www.postgresql.org/), with multiple query support.
 
 Based on [node-red-contrib-postgres](https://github.com/krisdaniels/node-red-contrib/tree/master/node-red-contrib-postgres) by Kris Daniels.
@@ -23,7 +25,12 @@ This module uses JavaScript features only found in Node versions 8+.
 
 Run the following command in the root directory of your Node-RED install
 
+    
+    npm i https://github.com/kartoza/node-red-contrib-postgres
+    
+    Original package install process: 
     npm install node-red-contrib-postgres-multi
+    
 
 ### Usage
 
